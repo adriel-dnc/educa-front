@@ -6,20 +6,23 @@ import { VideoPlayerComponent } from './components/video-player/video-player.com
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CreateTrailComponent } from './components/create-trail/create-trail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VideoPlayerComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CreateTrailComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
+    AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
