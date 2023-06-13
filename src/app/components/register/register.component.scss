@@ -1,0 +1,90 @@
+.register {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+
+  form {
+    span {
+      margin-bottom: .5rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      min-width: 500px;
+      margin-bottom: 1.5rem;
+    }
+
+    input {
+      background-color: #EAEAEA;
+      border: none;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      padding: .5rem;
+    }
+  }
+
+  button {
+    margin-right: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 56px;
+    padding: .7rem 2.5rem;
+    font-weight: bold;
+  }
+
+  .confirm {
+    background: #65E4A3;
+    border: 2px solid #65E4A3;
+  }
+
+  .cancel {
+    background: #C4C4C4;
+    border: 2px solid #C4C4C4;
+  }
+
+  .actions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .invite-email {
+    margin-top: 4rem;
+    border-radius: 1.5rem;
+
+    background: #0A2640;
+    color: #fff;
+    min-width: 900px;
+    min-height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+      margin: 40px 0;
+      font-size: 35px;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    input {
+      background: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      border-radius: 240px;
+      padding: .7rem;
+      margin-right: 1rem;
+      width: 250px;
+    }
+
+  }
+}
